@@ -13,7 +13,7 @@
 
 **Report Date:** 28 July 2026
 
----
+
 
 
 
@@ -23,7 +23,7 @@ No production customer data or live systems were involved in this assessment.
 
 > **Important:** This assessment was performed for educational purposes against an intentionally vulnerable application.
 
----
+
 
 ## Target Information
 
@@ -38,7 +38,7 @@ No production customer data or live systems were involved in this assessment.
 
 The original assessment identified the target URL, IP address, open ports, and Apache-Coyote/Tomcat web server.
 
----
+
 
 ## Scope
 
@@ -59,7 +59,7 @@ The original assessment identified the target URL, IP address, open ports, and A
 * Social engineering
 * Physical security testing
 
----
+
 
 ##  Testing Methodology
 
@@ -78,7 +78,7 @@ The following activities were specifically excluded:
 
 This scope is consistent with the original assessment methodology.
 
----
+
 
 ## Tools Used
 
@@ -92,16 +92,16 @@ This scope is consistent with the original assessment methodology.
 
 The Word report documents these tools and their purposes, including Nmap, curl, and OWASP ZAP.
 
----
+
 
 ##  Findings Summary
 
 | Risk Level           | Count | Meaning                                         |
 | -------------------- | ----: | ----------------------------------------------- |
-| 🔴 **High**          |     0 | Fix immediately — direct route to compromise    |
-| 🟠 **Medium**        |     4 | Fix soon — meaningfully increases attack chance |
-| 🟡 **Low**           |     7 | Fix when convenient — helps an attacker prepare |
-| 🔵 **Informational** |     4 | No action required — useful context             |
+|  **High**          |     0 | Fix immediately — direct route to compromise    |
+|  **Medium**        |     4 | Fix soon — meaningfully increases attack chance |
+|  **Low**           |     7 | Fix when convenient — helps an attacker prepare |
+|  **Informational** |     4 | No action required — useful context             |
 
 ### Overall Result
 
@@ -114,7 +114,7 @@ The Word report documents these tools and their purposes, including Nmap, curl, 
 
 The assessment report records these finding counts and their corresponding risk meanings.
 
----
+
 
 ## Top Security Priorities
 
@@ -128,7 +128,7 @@ Add **Cross-Site Request Forgery (CSRF)** protection to application forms, parti
 * Validate tokens server-side.
 * Ensure tokens are unpredictable and tied to the user's session.
 
----
+
 
 ### 2. Add Security Headers
 
@@ -145,7 +145,7 @@ X-Content-Type-Options
 
 These headers provide additional browser-side security controls and help reduce common web attack risks.
 
----
+
 
 ### 3. Enforce HTTPS
 
@@ -157,7 +157,7 @@ All application traffic should be served over HTTPS.
 * Enable HSTS.
 * Avoid transmitting sensitive information over unencrypted HTTP.
 
----
+
 
 ### 4. Reduce Server Information Disclosure
 
@@ -169,7 +169,7 @@ Configure the web server/application so that unnecessary software and version in
 
 These four priorities are directly reflected in the original assessment's recommendations.
 
----
+
 
 ##  Assessment Report
 
@@ -185,7 +185,7 @@ It covers:
 * Remediation Roadmap
 * Scope and Limitations
 
----
+
 
 ##  Repository Structure
 
@@ -197,7 +197,7 @@ It covers:
     └── ...
 ```
 
----
+
 
 ##  Disclaimer
 
@@ -207,7 +207,7 @@ The techniques and findings described in this repository should **only be applie
 
 Unauthorized security testing may be illegal and can cause disruption or damage.
 
----
+
 
 ##  Author
 
