@@ -3,17 +3,16 @@
 
 ## demo.testfire.net
 
-**Prepared by:** Idrisa Haruni Kigaile
+## Assessment Information
 
-**Program:** Future Interns
+| Field               | Details                                             |
+| ------------------- | --------------------------------------------------- |
+| **Prepared by**     | Idrisa Haruni Kigaile                               |
+| **Report**          | Web Application Security Assessment                 |
+| **Assessment Type** |  Passive / Non-Intrusive      |
+| **Assessment Date** | 13 August 2026                                      |
 
-**Assessment Type:** Passive & Non-Intrusive Security Assessment
-
-**Scan Date:** 27 July 2026
-
-**Report Date:** 28 July 2026
-
-
+The assessment was limited to publicly available APIs explicitly published for testing and learning.
 
 This repository contains a security assessment of **demo.testfire.net**, a deliberately vulnerable banking demo application maintained by Altoro Mutual and commonly used for learning web application security.
 
@@ -32,7 +31,7 @@ No production customer data or live systems were involved in this assessment.
 | Target IP       | `65.61.137.117`                    |
 | Open Ports      | `80 (HTTP)`, `443 (HTTPS)`, `8080` |
 | Web Server      | Apache-Coyote/1.1 (Apache Tomcat)  |
-| Assessment Type | Passive / Non-Intrusive            |
+
 
 The original assessment identified the target URL, IP address, open ports, and Apache-Coyote/Tomcat web server.
 
@@ -76,7 +75,18 @@ The following activities were specifically excluded:
 
 This scope is consistent with the original assessment methodology.
 
+## Assessment Information
 
+| Field               | Details                                             |
+| ------------------- | --------------------------------------------------- |
+| **Prepared by**     | Idrisa Haruni Kigaile                               |
+| **Report**          | API Security Risk Analysis Report                   |
+| **Assessment Type** | Read-only, non-intrusive API security risk analysis |
+| **Targets**         | `jsonplaceholder.typicode.com`, `reqres.in`         |
+| **Framework**       | OWASP API Security Top 10 (2023)                    |
+| **Assessment Date** | 13 August 2026                                      |
+
+The assessment was limited to publicly available APIs explicitly published for testing and learning.
 
 ## Tools Used
 
