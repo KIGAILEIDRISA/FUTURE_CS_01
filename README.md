@@ -75,16 +75,6 @@ The following activities were specifically excluded:
 
 This scope is consistent with the original assessment methodology.
 
-## Assessment Information
-
-| Field               | Details                                             |
-| ------------------- | --------------------------------------------------- |
-| **Prepared by**     | Idrisa Haruni Kigaile                               |
-| **Report**          | API Security Risk Analysis Report                   |
-| **Assessment Type** | Read-only, non-intrusive API security risk analysis |
-| **Targets**         | `jsonplaceholder.typicode.com`, `reqres.in`         |
-| **Framework**       | OWASP API Security Top 10 (2023)                    |
-| **Assessment Date** | 13 August 2026                                      |
 
 The assessment was limited to publicly available APIs explicitly published for testing and learning.
 
