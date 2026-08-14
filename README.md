@@ -15,8 +15,6 @@
 
 
 
-
-
 This repository contains a security assessment of **demo.testfire.net**, a deliberately vulnerable banking demo application maintained by Altoro Mutual and commonly used for learning web application security.
 
 No production customer data or live systems were involved in this assessment.
@@ -184,18 +182,6 @@ It covers:
 * Findings in Detail
 * Remediation Roadmap
 * Scope and Limitations
-
-
-
-##  Repository Structure
-
-```text
-.
-├── README.md
-├── New_Security_Assessment_Report.docx
-└── screenshots/
-    └── ...
-```
 
 
 
